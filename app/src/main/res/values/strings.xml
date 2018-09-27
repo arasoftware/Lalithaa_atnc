@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Lalithaa</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">Login</string>
+    <string name="termsandcondition">Terms and conditions</string>
+    <string name="welcome">Welcome </string>
+    <string name="ok">Ok</string>
+    <string name="connection_error">Please check your network connection</string>
+    <string name="my_name">My name </string>
+    <string name="myemail">arasoftwares.in@gmail.com</string>
+    <string name="welcome_summary"> As an authorized user you can inquire and update employee and payroll related information</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="attendance">Attendance</string>
+    <string name="notification">Notification</string>
+    <string name="navigation_drawer">Navigation Drawer</string>
+    <string name="todo">TODO</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="cinout_switch">Check in </string>
+    <string name="break_msg">Break in</string>
+    <string name="Wel_msg">Welcome</string>
+    <string name="remarks">Enter remarks</string>
+    <string name="image">Image</string>
+    <string name="select_employee">Assigned To</string>
+    <string name="assign">Assign</string>
+    <string name="bill_no">Bill No</string>
+    <string name="welcome_user_please_do_the_following_steps">Welcome user !. Please do the following steps</string>
+    <string name="my_spinner">My spinner</string>
+    <string name="ara_soft">Ara soft</string>
+    <string name="www">www.arasoftwares.com</string>
+    <string name="logout">Logout</string>
+    <string name="click_here">Click here</string>
+    <string name="navigation_drawer_open">Drawer open</string>
+    <string name="navigation_drawer_close">Drawer close</string>
+    <string name="used_leave">Used Leaves</string>
+    <string name="avai_leave">Available Leaves</string>
+    <string name="Ttl_cin">Total Breaks</string>
+    <string name="hint_cancel">Cancel</string>
+    <string name="hint_clear">Clear</string>
+    <string name="hint_save">Save</string>
+    <string name="date">Date</string>
+    <string name="hello_user">Hello User</string>
+    <string name="submit">Submit</string>
+    <string name="tab1">Check In</string>
+    <string name="tab2">Assign</string>
+    <string name="tab3">Delivery</string>
+    <string-array name="Select_the_User">
+        <item>User 1</item>
+        <item>User 2</item>
+        <item>User 3</item>
+        <item>User 4</item>
+        <item>User 5</item>
+        <item>User 6</item>
+        <item>User 7</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

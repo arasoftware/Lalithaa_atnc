@@ -1,0 +1,115 @@
+<resources>
+
+    <style name="baseTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/orange</item>
+        <item name="colorPrimaryDark">@color/orange</item>
+        <item name="android:dropDownListViewStyle">@style/SpinnerStyle</item>
+        <item name="colorAccent">@color/orange</item>
+        <item name="android:windowBackground">@color/snow</item>
+        <item name="android:itemPadding">20dp</item>
+        <item name="switchStyle">@color/snow</item>
+    </style>
+
+    <style name="baseTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Autocomplete" parent="Widget.AppCompat.Light.AutoCompleteTextView">
+        <item name="android:background">@color/lightsnow</item>
+        <item name="android:itemPadding">10dp</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:divider">@color/shadow</item>
+        <item name="android:dividerPadding">10dp</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="colorControlActivated">@color/white</item>
+    </style>
+
+    <style name="tab" parent="@style/Widget.Design.TabLayout">
+        <item name="tabBackground">@color/orange</item>
+        <item name="tabSelectedTextColor">@color/white</item>
+        <item name="tabMode">scrollable</item>
+    </style>
+
+    <style name="edittextstyle">
+        <item name="android:gravity">fill</item>
+        <item name="android:tint">@color/orange</item>
+        <item name="android:textColor">@color/snow</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="card_style" parent="CardView">
+        <item name="android:clickable">true</item>
+        <item name="cardBackgroundColor">@color/orange</item>
+        <item name="cardCornerRadius">7dp</item>
+        <item name="android:layout_marginTop">1dp</item>
+        <item name="android:layout_marginBottom">1dp</item>
+        <item name="android:layout_marginRight">1dp</item>
+        <item name="android:layout_marginLeft">1dp</item>
+        <item name="cardElevation">7dp</item>
+        <item name="android:focusable">true</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+
+    </style>
+
+    <style name="buttonstyle" >
+        <item name="android:textSize">18sp</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">@color/background</item>
+        <item name="android:background">@drawable/boxx</item>
+    </style>
+
+    <style name="textLable" parent="TextAppearance.AppCompat">
+        <!-- Hint color and label color in FALSE state -->
+        <item name="android:textColorHint">@color/rebel</item>
+        <!-- Label color in TRUE state and bar color FALSE and TRUE State -->
+        <item name="colorAccent">@color/orange</item>
+        <item name="colorControlNormal">@color/orange</item>
+        <item name="colorControlActivated">@color/orange</item>
+    </style>
+
+    <style name="textLableAutoCom" parent="TextAppearance.AppCompat">
+        <!-- Hint color and label color in FALSE state -->
+        <item name="android:textColorHint">@color/white</item>
+        <!-- Label color in TRUE state and bar color FALSE and TRUE State -->
+        <item name="colorAccent">@color/white</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="colorControlActivated">@color/white</item>
+    </style>
+
+
+    <style name="AppTheme.Dark.Dialog" parent="Theme.AppCompat.Dialog">
+        <item name="colorAccent">@color/white</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColor">@color/rebel</item>
+        <item name="android:background">@color/lightsnow</item>
+        <item name="colorControlNormal">@color/orange</item>
+        <item name="colorControlActivated">@color/orange</item>
+        <item name="colorControlHighlight">@color/orange</item>
+    </style>
+
+    <style name="spinnerTheme">
+        <item name="android:popupBackground">@color/lightsnow</item>
+        <item name="android:textColor">@color/rebel</item>
+        <item name="android:hint">@color/white</item>
+        <item name="android:dividerPadding">10dp</item>
+    </style>
+
+    <style name="SpinnerStyle" parent="Widget.AppCompat.ListView.DropDown">
+        <item name="android:divider">@color/textcolor</item>
+        <item name="android:dividerHeight">0.1dp</item>
+    </style>
+
+    <style name="tab_item">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="AppBarOverlay" parent="Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="elevation">0dp</item>
+    </style>
+</resources>

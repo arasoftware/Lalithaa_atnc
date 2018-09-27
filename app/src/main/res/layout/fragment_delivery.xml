@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.DeliveryFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.design.widget.TextInputLayout
+                style="@style/textLable"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:hint="@string/bill_no">
+
+                <EditText
+                    android:id="@+id/billNoEd"
+                    style="@style/edittextstyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:maxLines="1"
+                    android:textColor="@color/rebel"
+                    app:backgroundTint="@color/orange" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.gesture.GestureOverlayView
+                android:id="@+id/containerOverlay"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_margin="5dp"
+                android:background="@color/shadow"
+                android:fadeEnabled="false"
+                android:fadeOffset="10000"
+                android:gestureColor="@color/rebel"
+                android:gestureStrokeLengthThreshold="0.1"
+                android:gestureStrokeType="multiple"
+                android:orientation="vertical"
+                android:uncertainGestureColor="@color/orange">></android.gesture.GestureOverlayView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/save"
+                    style="@style/buttonstyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:text="save" />
+
+                <Button
+                    android:id="@+id/clear"
+                    style="@style/buttonstyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:text="clear" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/submit"
+                style="@style/buttonstyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/submit" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
